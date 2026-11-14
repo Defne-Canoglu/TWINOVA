@@ -1,0 +1,15 @@
+{
+  "python_syntax_files": 53,
+  "turkish_text": [
+    "source_licenses/DROZY.txt"
+  ],
+  "local_paths": [],
+  "production_markers": [],
+  "credential_patterns": [],
+  "oversize_files": [],
+  "preserved_notice_exceptions": {
+    "source_licenses/DROZY.txt": "Original third-party notice includes a proper name with non-English characters; preserved without alteration."
+  },
+  "svg_localization": "English text; valid XML",
+  "javascript_syntax": "Passed"
+}

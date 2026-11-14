@@ -1,0 +1,26 @@
+{
+  "local_runtime": {
+    "service": "TWINOVA",
+    "extension_version": "13.6.0",
+    "engine": "v135.engine.Engine.decide",
+    "local_inference": true,
+    "model_loaded": true,
+    "model_sha256": "f5b49b972bbafb3ad9fc2e39b6ca95023d0628a5dbbde7e6f49ce8f399b9f46a",
+    "data_sha256": "7f96176e5de55a0b7a6c3ed0d471ce114aae668443ed0ed52a091daaeee918e9",
+    "checked_uptime_s": 18.083,
+    "live_sensor_subscription": false,
+    "physical_validation": false
+  },
+  "scenarios": 3,
+  "one_way_s": 1200,
+  "round_trip_s": 2400,
+  "virtual_time": true,
+  "local_api_delayed": false,
+  "actual_browser_status": "recorded_partial_acceptance",
+  "browser_reason": "Approved managed local preview enabled CUA browser testing; 35 recorded cases passed. Physical touch and active reduced motion remain unverified.",
+  "layout_screenshots_created": true,
+  "offline_scope": "No external URLs needed by model/API or embedded guide; no OS network isolation was changed",
+  "completed_at": "2026-11-14T08:45:15.777950+00:00",
+  "browser_evidence": "reports_v136/browser_results.json",
+  "browser_completed_at": "2026-11-14T10:19:07.155Z"
+}

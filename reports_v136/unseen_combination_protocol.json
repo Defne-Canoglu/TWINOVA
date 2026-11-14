@@ -1,0 +1,12 @@
+{
+  "scope": "Secondary retrospective held-out regression-training combination; not a new person cohort",
+  "definition": "regime 3 AND issued_h >=192 excluded from regression/classifier training",
+  "training_rows_removed": {
+    "before": 214,
+    "after": 214
+  },
+  "calibration_roles_unchanged": true,
+  "alpha": "Previously frozen main-analysis group-CV choice; no new tuning",
+  "interval": "constant person-level",
+  "independent_new_test": false
+}

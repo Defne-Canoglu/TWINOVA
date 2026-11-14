@@ -1,0 +1,117 @@
+{
+  "numerical_reference": {
+    "method": "Independent SciPy RK45 documented Forger99 RHS; homeostat checked separately",
+    "source": "https://arcascope.github.io/circadian/api/models.html",
+    "results": [
+      {
+        "lux": 0.0,
+        "max_step_h": 0.05,
+        "max_state_error": 3.929530034696427e-10,
+        "phase_error_rad": 4.27623270127242e-10
+      },
+      {
+        "lux": 0.0,
+        "max_step_h": 0.025,
+        "max_state_error": 2.5848767570835207e-11,
+        "phase_error_rad": 2.716760150178743e-11
+      },
+      {
+        "lux": 0.0,
+        "max_step_h": 0.0125,
+        "max_state_error": 2.7573499039590388e-12,
+        "phase_error_rad": 2.106759211528697e-12
+      },
+      {
+        "lux": 30.0,
+        "max_step_h": 0.05,
+        "max_state_error": 4.1206105194646625e-10,
+        "phase_error_rad": 5.117146706368203e-10
+      },
+      {
+        "lux": 30.0,
+        "max_step_h": 0.025,
+        "max_state_error": 2.769362517085483e-11,
+        "phase_error_rad": 3.2660985027632705e-11
+      },
+      {
+        "lux": 30.0,
+        "max_step_h": 0.0125,
+        "max_state_error": 3.5528247011029634e-12,
+        "phase_error_rad": 2.731148640577885e-12
+      },
+      {
+        "lux": 350.0,
+        "max_step_h": 0.05,
+        "max_state_error": 3.934194081622877e-10,
+        "phase_error_rad": 4.6014170251851283e-10
+      },
+      {
+        "lux": 350.0,
+        "max_step_h": 0.025,
+        "max_state_error": 2.5621393895391975e-11,
+        "phase_error_rad": 2.8694380205251946e-11
+      },
+      {
+        "lux": 350.0,
+        "max_step_h": 0.0125,
+        "max_state_error": 2.5762725286426758e-12,
+        "phase_error_rad": 1.7550405573274475e-12
+      },
+      {
+        "lux": 1000.0,
+        "max_step_h": 0.05,
+        "max_state_error": 2.4194735104288156e-10,
+        "phase_error_rad": 1.836086838125084e-10
+      },
+      {
+        "lux": 1000.0,
+        "max_step_h": 0.025,
+        "max_state_error": 1.6056600493641326e-11,
+        "phase_error_rad": 1.1541878564003127e-11
+      },
+      {
+        "lux": 1000.0,
+        "max_step_h": 0.0125,
+        "max_state_error": 1.770028568159887e-12,
+        "phase_error_rad": 6.119549311733863e-13
+      }
+    ],
+    "passed": true
+  },
+  "biological": {
+    "status": "not_evaluable",
+    "matched_people": 0,
+    "reason": "Available assay sample lacks person linkage, matching light series and confirmed dim-light protocol",
+    "measured_phase_error_h": null
+  },
+  "assay_threshold_checks": [
+    {
+      "threshold_pg_ml": 2.3,
+      "status": "THRESHOLD_CROSSING",
+      "time_h": 1.7099787685774948,
+      "bracket_h": [
+        1.5,
+        2.0
+      ],
+      "interpretation": "assay threshold extraction, not oscillator validation"
+    },
+    {
+      "threshold_pg_ml": 4.0,
+      "status": "THRESHOLD_CROSSING",
+      "time_h": 2.0780009341429238,
+      "bracket_h": [
+        2.0,
+        2.5
+      ],
+      "interpretation": "assay threshold extraction, not oscillator validation"
+    }
+  ],
+  "assay_sha256": "ee647e05a70b1ca89f0b1e4d1493c723bde1d0ea02c1e08438caaaf1f36e6ee9",
+  "convention": "atan2(-xc,x) is a geometrical model angle; model CBT minimum is minimum x; DLMO=CBTmin-7h is a reference assumption, not observed DLMO",
+  "cbt_to_dlmo_offset_sensitivity_h": [
+    6,
+    7,
+    8
+  ],
+  "circular_test_2350_0010_h": 0.3333333333333357
+}

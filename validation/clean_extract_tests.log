@@ -1,0 +1,110 @@
+test_after_before_available_rejected (v135.test_core.Core.test_after_before_available_rejected) ... ok
+test_agents_preserved (v135.test_core.Core.test_agents_preserved) ... ok
+test_conditional_fallback (v135.test_core.Core.test_conditional_fallback) ... ok
+test_conditional_supported_cell (v135.test_core.Core.test_conditional_supported_cell) ... ok
+test_event_and_gain_separate (v135.test_core.Core.test_event_and_gain_separate) ... ok
+test_finite_sample_quantile (v135.test_core.Core.test_finite_sample_quantile) ... ok
+test_future_label_rejected (v135.test_core.Core.test_future_label_rejected) ... ok
+test_history_only_after_label_available (v135.test_core.Core.test_history_only_after_label_available) ... ok
+test_infinite_quantile_preserved (v135.test_core.Core.test_infinite_quantile_preserved) ... ok
+test_invalid_measurement_falls_back (v135.test_core.Core.test_invalid_measurement_falls_back) ... ok
+test_nan_short_rejected (v135.test_core.Core.test_nan_short_rejected) ... ok
+test_no_automatic_mission_clearance (v135.test_core.Core.test_no_automatic_mission_clearance) ... ok
+test_normalized_radius (v135.test_core.Core.test_normalized_radius) ... ok
+test_online_updates_only_after_label (v135.test_core.Core.test_online_updates_only_after_label) ... ok
+test_population_ignores_acquired_history (v135.test_core.Core.test_population_ignores_acquired_history) ... ok
+test_prefix_availability_gate (v135.test_core.Core.test_prefix_availability_gate) ... ok
+test_prefix_future_poison_invariance (v135.test_core.Core.test_prefix_future_poison_invariance) ... ok
+test_random_policy_deterministic (v135.test_core.Core.test_random_policy_deterministic) ... ok
+test_reciprocal_metric_not_reciprocal_median (v135.test_core.Core.test_reciprocal_metric_not_reciprocal_median) ... ok
+test_repeated_label_idempotent (v135.test_core.Core.test_repeated_label_idempotent) ... ok
+test_shared_duration_kernel_minimum_time (v135.test_core.Core.test_shared_duration_kernel_minimum_time) ... ok
+test_supplied_history_cannot_override (v135.test_core.Core.test_supplied_history_cannot_override) ... ok
+test_target_injection_rejected (v135.test_core.Core.test_target_injection_rejected) ... ok
+test_timeout_is_lapse_and_early_excluded (v135.test_core.Core.test_timeout_is_lapse_and_early_excluded) ... ok
+test_unacquired_label_rejected (v135.test_core.Core.test_unacquired_label_rejected) ... ok
+test_unacquired_short_rejected (v135.test_core.Core.test_unacquired_short_rejected) ... ok
+test_C_context_without_device_accusation (v136.test_extension.Extension.test_C_context_without_device_accusation) ... ok
+test_H1_early_reference_unavailable (v136.test_extension.Extension.test_H1_early_reference_unavailable) ... ok
+test_H1_missing_not_wake (v136.test_extension.Extension.test_H1_missing_not_wake) ... ok
+test_H1_sleep_reduction_support (v136.test_extension.Extension.test_H1_sleep_reduction_support) ... ok
+test_H2_nonfinite_missing (v136.test_extension.Extension.test_H2_nonfinite_missing) ... ok
+test_H2_rotated_state_support (v136.test_extension.Extension.test_H2_rotated_state_support) ... ok
+test_H3_counterevidence (v136.test_extension.Extension.test_H3_counterevidence) ... ok
+test_H3_existing_validated_support (v136.test_extension.Extension.test_H3_existing_validated_support) ... ok
+test_H3_future_not_used (v136.test_extension.Extension.test_H3_future_not_used) ... ok
+test_H3_invalid_not_normal (v136.test_extension.Extension.test_H3_invalid_not_normal) ... ok
+test_H3_not_task_count (v136.test_extension.Extension.test_H3_not_task_count) ... ok
+test_H4_failed_not_specific_delay (v136.test_extension.Extension.test_H4_failed_not_specific_delay) ... ok
+test_H4_no_calibration_unknown (v136.test_extension.Extension.test_H4_no_calibration_unknown) ... ok
+test_H4_valid_calibration_counterevidence (v136.test_extension.Extension.test_H4_valid_calibration_counterevidence) ... ok
+test_H5_independent_domains_support (v136.test_extension.Extension.test_H5_independent_domains_support) ... ok
+test_H5_insufficient_domains_unknown (v136.test_extension.Extension.test_H5_insufficient_domains_unknown) ... ok
+test_H5_shared_sources_not_independent (v136.test_extension.Extension.test_H5_shared_sources_not_independent) ... ok
+test_available_evidence_time (v136.test_extension.Extension.test_available_evidence_time) ... ok
+test_baseline_data_model_reports_immutable (v136.test_extension.Extension.test_baseline_data_model_reports_immutable) ... ok
+test_bootstrap_rank_independent (v136.test_extension.Extension.test_bootstrap_rank_independent) ... ok
+test_comms_invalid (v136.test_extension.Extension.test_comms_invalid) ... ok
+test_day_boundary_circular (v136.test_extension.Extension.test_day_boundary_circular) ... ok
+test_default_output_identity (v136.test_extension.Extension.test_default_output_identity) ... ok
+test_evidence_does_not_create_measurements (v136.test_extension.Extension.test_evidence_does_not_create_measurements) ... ok
+test_forward_fill_not_observed_coverage (v136.test_extension.Extension.test_forward_fill_not_observed_coverage) ... ok
+test_future_history_poison (v136.test_extension.Extension.test_future_history_poison) ... ok
+test_hardware_corrupted_proof_safe (v136.test_extension.Extension.test_hardware_corrupted_proof_safe) ... ok
+test_hardware_missing_unknown (v136.test_extension.Extension.test_hardware_missing_unknown) ... ok
+test_hardware_truth_vs_acceptance (v136.test_extension.Extension.test_hardware_truth_vs_acceptance) ... ok
+test_homeostat_analytic (v136.test_extension.Extension.test_homeostat_analytic) ... ok
+test_long_missing_refused (v136.test_extension.Extension.test_long_missing_refused) ... ok
+test_metrics_independent_fixture (v136.test_extension.Extension.test_metrics_independent_fixture) ... ok
+test_no_new_model_or_probability_in_explanation (v136.test_extension.Extension.test_no_new_model_or_probability_in_explanation) ... ok
+test_no_test_people_in_training_folds (v136.test_extension.Extension.test_no_test_people_in_training_folds) ... ok
+test_overlap_rejected (v136.test_extension.Extension.test_overlap_rejected) ... ok
+test_personal_minimum_information (v136.test_extension.Extension.test_personal_minimum_information) ... ok
+test_phase_comparison_fixture (v136.test_extension.Extension.test_phase_comparison_fixture) ... ok
+test_phase_no_overlap_or_future_prediction (v136.test_extension.Extension.test_phase_no_overlap_or_future_prediction) ... ok
+test_phase_pair_strict_identity (v136.test_extension.Extension.test_phase_pair_strict_identity) ... ok
+test_progress_duplicate_future_failed (v136.test_extension.Extension.test_progress_duplicate_future_failed) ... ok
+test_progress_missing_day_break (v136.test_extension.Extension.test_progress_missing_day_break) ... ok
+test_progress_timezone (v136.test_extension.Extension.test_progress_timezone) ... ok
+test_radiation_does_not_change_light (v136.test_extension.Extension.test_radiation_does_not_change_light) ... ok
+test_reference_no_false_biological_phase (v136.test_extension.Extension.test_reference_no_false_biological_phase) ... ok
+test_repeated_bootstrap_people_not_collapsed (v136.test_extension.Extension.test_repeated_bootstrap_people_not_collapsed) ... ok
+test_research_common_task_keys (v136.test_extension.Extension.test_research_common_task_keys) ... ok
+test_scenario_does_not_edit_source (v136.test_extension.Extension.test_scenario_does_not_edit_source) ... ok
+test_scenario_target_injection (v136.test_extension.Extension.test_scenario_target_injection) ... ok
+test_schema_every_hypothesis (v136.test_extension.Extension.test_schema_every_hypothesis) ... ok
+test_short_missing_retains_flag (v136.test_extension.Extension.test_short_missing_retains_flag) ... ok
+test_small_calibration_infinite (v136.test_extension.Extension.test_small_calibration_infinite) ... ok
+test_virtual_comms_roundtrip (v136.test_extension.Extension.test_virtual_comms_roundtrip) ... ok
+test_api_bad_json_rejected (v136.test_extension.HTTP.test_api_bad_json_rejected) ... ok
+test_api_cli_same_decision (v136.test_extension.HTTP.test_api_cli_same_decision) ... ok
+test_catalog_offline_embedded (v136.test_extension.HTTP.test_catalog_offline_embedded) ... ok
+test_comms_does_not_block_inference (v136.test_extension.HTTP.test_comms_does_not_block_inference) ... ok
+test_duplicate_query_rejected (v136.test_extension.HTTP.test_duplicate_query_rejected) ... ok
+test_health_runtime (v136.test_extension.HTTP.test_health_runtime) ... ok
+test_mars_cli_same_data (v136.test_extension.HTTP.test_mars_cli_same_data) ... ok
+test_default_language_english (v136.test_release.ReleaseHTTP.test_default_language_english) ... 127.0.0.1 - - [14/Nov/2026 18:31:15] "GET /api/v135?person=C135-108&task=13-16 HTTP/1.1" 200 -
+ok
+test_english_page_and_links (v136.test_release.ReleaseHTTP.test_english_page_and_links) ... 127.0.0.1 - - [14/Nov/2026 18:31:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 18:31:15] "GET /report136 HTTP/1.1" 302 -
+127.0.0.1 - - [14/Nov/2026 18:31:15] "GET /artifacts136/final_results.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 18:31:15] "GET /artifacts136/hardware_bench/bench_results.csv HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 18:31:15] "GET /docs_v136/ARCHITECTURE.md HTTP/1.1" 200 -
+ok
+test_get_post_parity (v136.test_release.ReleaseHTTP.test_get_post_parity) ... 127.0.0.1 - - [14/Nov/2026 18:31:15] "GET /api/v135?person=C135-108&task=13-16&stage=after&lang=en HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2026 18:31:16] "POST /api/v135 HTTP/1.1" 200 -
+ok
+test_strict_json_rejects_duplicate_and_nonfinite (v136.test_release.ReleaseHTTP.test_strict_json_rejects_duplicate_and_nonfinite) ... 127.0.0.1 - - [14/Nov/2026 18:31:16] "POST /api/v135 HTTP/1.1" 400 -
+127.0.0.1 - - [14/Nov/2026 18:31:16] "POST /api/v135 HTTP/1.1" 400 -
+127.0.0.1 - - [14/Nov/2026 18:31:16] "POST /api/v135 HTTP/1.1" 400 -
+127.0.0.1 - - [14/Nov/2026 18:31:16] "POST /api/v135 HTTP/1.1" 400 -
+ok
+test_unknown_route_and_traversal (v136.test_release.ReleaseHTTP.test_unknown_route_and_traversal) ... 127.0.0.1 - - [14/Nov/2026 18:31:16] "GET /unknown HTTP/1.1" 404 -
+127.0.0.1 - - [14/Nov/2026 18:31:16] "GET /artifacts136/../models_v135/study/twin.joblib HTTP/1.1" 400 -
+127.0.0.1 - - [14/Nov/2026 18:31:16] "GET /docs_v136/../README.md HTTP/1.1" 400 -
+ok
+
+----------------------------------------------------------------------
+Ran 90 tests in 18.079s
+
+OK

@@ -1,0 +1,231 @@
+{
+  "groups": {
+    "H": [
+      "last_rt",
+      "history_mean",
+      "history_n"
+    ],
+    "K": [
+      "sin",
+      "cos"
+    ],
+    "W": [
+      "observed_sleep_h24",
+      "covered_h24",
+      "hours_since_wake"
+    ],
+    "P": [
+      "S",
+      "x",
+      "xc",
+      "n"
+    ],
+    "E": [
+      "co2_excess",
+      "dose_ugy",
+      "gravity_deviation"
+    ],
+    "T": [
+      "short_rt",
+      "short_response_speed",
+      "short_lapse_fraction",
+      "short_slow_speed",
+      "short_early_fraction",
+      "short_n",
+      "trial_metrics_available"
+    ],
+    "Q": [
+      "quality",
+      "device_ok",
+      "calibration_id",
+      "light_coverage"
+    ]
+  },
+  "variants": {
+    "constant": {
+      "before": [],
+      "after": [
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "history": {
+      "before": [
+        "last_rt",
+        "history_mean",
+        "history_n"
+      ],
+      "after": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "clock_sleep": {
+      "before": [
+        "sin",
+        "cos",
+        "observed_sleep_h24",
+        "covered_h24",
+        "hours_since_wake"
+      ],
+      "after": [
+        "sin",
+        "cos",
+        "observed_sleep_h24",
+        "covered_h24",
+        "hours_since_wake",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "physiology": {
+      "before": [
+        "S",
+        "x",
+        "xc",
+        "n"
+      ],
+      "after": [
+        "S",
+        "x",
+        "xc",
+        "n",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "history_physiology": {
+      "before": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "S",
+        "x",
+        "xc",
+        "n"
+      ],
+      "after": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "S",
+        "x",
+        "xc",
+        "n",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "history_physiology_environment": {
+      "before": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "S",
+        "x",
+        "xc",
+        "n",
+        "co2_excess",
+        "dose_ugy",
+        "gravity_deviation"
+      ],
+      "after": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "S",
+        "x",
+        "xc",
+        "n",
+        "co2_excess",
+        "dose_ugy",
+        "gravity_deviation",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "history_physiology_clock": {
+      "before": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "S",
+        "x",
+        "xc",
+        "n",
+        "sin",
+        "cos"
+      ],
+      "after": [
+        "last_rt",
+        "history_mean",
+        "history_n",
+        "S",
+        "x",
+        "xc",
+        "n",
+        "sin",
+        "cos",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    },
+    "published_two_process": {
+      "before": [
+        "reference_S",
+        "reference_C"
+      ],
+      "after": [
+        "reference_S",
+        "reference_C",
+        "short_rt",
+        "short_response_speed",
+        "short_lapse_fraction",
+        "short_slow_speed",
+        "short_early_fraction",
+        "short_n",
+        "trial_metrics_available"
+      ]
+    }
+  },
+  "imputation": "W missing values use training-only median with explicit missing indicators; no observation is reclassified as normal",
+  "feature_roles": "person/task/source/origin are routing metadata, not learned predictors"
+}

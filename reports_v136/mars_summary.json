@@ -1,0 +1,55 @@
+{
+  "model_sha256": "f5b49b972bbafb3ad9fc2e39b6ca95023d0628a5dbbde7e6f49ce8f399b9f46a",
+  "scenarios": [
+    {
+      "scenario": "earth",
+      "sol_h": 24.0,
+      "light_period_h": 24.0,
+      "alternative": false,
+      "intrinsic_tau_h": 24.2,
+      "mean_sleep_pressure": 0.3571969387826354,
+      "phase_drift_h_per_sol": 0.002556708830432116,
+      "mean_model_forecast_ms": 333.392371811569,
+      "post_warmup_sols": 21,
+      "drift_convention": "unwrapped oscillator angle minus external-day angle, hours per sol"
+    },
+    {
+      "scenario": "mars_earth_light",
+      "sol_h": 24.6597,
+      "light_period_h": 24.0,
+      "alternative": false,
+      "intrinsic_tau_h": 24.2,
+      "mean_sleep_pressure": 0.35947912779343133,
+      "phase_drift_h_per_sol": 0.9609631517213242,
+      "mean_model_forecast_ms": 334.1958656233519,
+      "post_warmup_sols": 21,
+      "drift_convention": "unwrapped oscillator angle minus external-day angle, hours per sol"
+    },
+    {
+      "scenario": "mars_scheduled_light",
+      "sol_h": 24.6597,
+      "light_period_h": 24.6597,
+      "alternative": true,
+      "intrinsic_tau_h": 24.2,
+      "mean_sleep_pressure": 0.35947912779343133,
+      "phase_drift_h_per_sol": -0.001171499413704007,
+      "mean_model_forecast_ms": 332.78653089843647,
+      "post_warmup_sols": 21,
+      "drift_convention": "unwrapped oscillator angle minus external-day angle, hours per sol"
+    }
+  ],
+  "initial_conditions": [
+    -0.1,
+    -1.1,
+    0.45,
+    0.4
+  ],
+  "days": 35,
+  "warmup_sols": 14,
+  "step_h": 0.25,
+  "scope": "Model day-length/light-timing experiment; no counterfactual observed targets; not individual entrainment validation",
+  "gravity_unchanged_to_isolate_day_length": true,
+  "light_timing_not_treatment_advice": true,
+  "interval_scope": "Earth-cohort calibration; Mars coverage not established",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1934931/"
+}

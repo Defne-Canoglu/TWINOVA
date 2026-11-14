@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TWINOVA existing-evidence assessment",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "rule_version",
+    "person",
+    "task",
+    "decision_time",
+    "measurement_requests",
+    "causal_claim",
+    "hypotheses"
+  ],
+  "properties": {
+    "causal_claim": {
+      "const": false
+    },
+    "measurement_requests": {
+      "const": 0
+    },
+    "hypotheses": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "hypothesis_id",
+          "label_tr",
+          "label_en",
+          "support_level",
+          "interpretation_scope",
+          "supporting_evidence",
+          "contradicting_evidence",
+          "missing_evidence",
+          "coverage_fraction",
+          "window_h",
+          "evidence_ids",
+          "decision_time",
+          "last_available_time",
+          "rule_version",
+          "limitations",
+          "reason_codes"
+        ],
+        "properties": {
+          "hypothesis_id": {
+            "type": "string"
+          },
+          "label_tr": {
+            "type": "string"
+          },
+          "label_en": {
+            "type": "string"
+          },
+          "rule_version": {
+            "type": "string"
+          },
+          "support_level": {
+            "enum": [
+              "strong",
+              "limited",
+              "weak",
+              "not_evaluable"
+            ]
+          },
+          "interpretation_scope": {
+            "enum": [
+              "association_only",
+              "measurement_quality",
+              "context_only"
+            ]
+          },
+          "coverage_fraction": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "window_h": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "decision_time": {
+            "type": "number"
+          },
+          "last_available_time": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "supporting_evidence": {
+            "type": "array"
+          },
+          "contradicting_evidence": {
+            "type": "array"
+          },
+          "missing_evidence": {
+            "type": "array"
+          },
+          "evidence_ids": {
+            "type": "array"
+          },
+          "limitations": {
+            "type": "array"
+          },
+          "reason_codes": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}

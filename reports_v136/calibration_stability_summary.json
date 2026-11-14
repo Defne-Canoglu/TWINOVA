@@ -1,0 +1,287 @@
+{
+  "results": [
+    {
+      "stage": "before",
+      "method": "constant",
+      "n_people": 4,
+      "replicates": 2000,
+      "baseline_quantile": 79.3817236501265,
+      "finite_fraction": 0.0,
+      "quantile_ci95": null,
+      "median_width_ms": null,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "constant",
+      "n_people": 10,
+      "replicates": 2000,
+      "baseline_quantile": 79.3817236501265,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        42.29826714699851,
+        87.70395055307603
+      ],
+      "median_width_ms": 158.763447300253,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "constant",
+      "n_people": 15,
+      "replicates": 2000,
+      "baseline_quantile": 79.3817236501265,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        48.35151613398165,
+        87.70395055307603
+      ],
+      "median_width_ms": 175.40790110615205,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "constant",
+      "n_people": 20,
+      "replicates": 2000,
+      "baseline_quantile": 79.3817236501265,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        44.064304459978246,
+        87.70395055307603
+      ],
+      "median_width_ms": 158.763447300253,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "normalized",
+      "n_people": 4,
+      "replicates": 2000,
+      "baseline_quantile": 5.32403626119238,
+      "finite_fraction": 0.0,
+      "quantile_ci95": null,
+      "median_width_ms": null,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "normalized",
+      "n_people": 10,
+      "replicates": 2000,
+      "baseline_quantile": 5.32403626119238,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        3.131306946366442,
+        6.043541211058402
+      ],
+      "median_width_ms": 128.72457623541638,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "normalized",
+      "n_people": 15,
+      "replicates": 2000,
+      "baseline_quantile": 5.32403626119238,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        3.8135468600656646,
+        6.043541211058402
+      ],
+      "median_width_ms": 146.12077063136613,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "before",
+      "method": "normalized",
+      "n_people": 20,
+      "replicates": 2000,
+      "baseline_quantile": 5.32403626119238,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        3.8135468600656646,
+        6.043541211058402
+      ],
+      "median_width_ms": 128.72457623541638,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "constant",
+      "n_people": 4,
+      "replicates": 2000,
+      "baseline_quantile": 59.293383166260526,
+      "finite_fraction": 0.0,
+      "quantile_ci95": null,
+      "median_width_ms": null,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "constant",
+      "n_people": 10,
+      "replicates": 2000,
+      "baseline_quantile": 59.293383166260526,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        38.392639189960164,
+        62.90321596424337
+      ],
+      "median_width_ms": 118.58676633252105,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "constant",
+      "n_people": 15,
+      "replicates": 2000,
+      "baseline_quantile": 59.293383166260526,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        44.85425553473635,
+        62.90321596424337
+      ],
+      "median_width_ms": 125.80643192848675,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "constant",
+      "n_people": 20,
+      "replicates": 2000,
+      "baseline_quantile": 59.293383166260526,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        44.85425553473635,
+        62.90321596424337
+      ],
+      "median_width_ms": 118.58676633252105,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "normalized",
+      "n_people": 4,
+      "replicates": 2000,
+      "baseline_quantile": 6.390074585602901,
+      "finite_fraction": 0.0,
+      "quantile_ci95": null,
+      "median_width_ms": null,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "normalized",
+      "n_people": 10,
+      "replicates": 2000,
+      "baseline_quantile": 6.390074585602901,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        4.743795866259825,
+        6.780614321650039
+      ],
+      "median_width_ms": 110.90106891796093,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "normalized",
+      "n_people": 15,
+      "replicates": 2000,
+      "baseline_quantile": 6.390074585602901,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        4.988009671597979,
+        6.780614321650039
+      ],
+      "median_width_ms": 117.6789669850896,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    },
+    {
+      "stage": "after",
+      "method": "normalized",
+      "n_people": 20,
+      "replicates": 2000,
+      "baseline_quantile": 6.390074585602901,
+      "finite_fraction": 1.0,
+      "quantile_ci95": [
+        4.988009671597979,
+        6.780614321650039
+      ],
+      "median_width_ms": 110.90106891796093,
+      "scope": "Calibration resampling sensitivity, not a new coverage guarantee"
+    }
+  ],
+  "conditional_cells": [
+    {
+      "stage": "before",
+      "cell": "am:0",
+      "people": 20,
+      "eligible": false,
+      "radius": 79.3817236501265,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "before",
+      "cell": "am:1",
+      "people": 6,
+      "eligible": false,
+      "radius": 79.3817236501265,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "before",
+      "cell": "pm:0",
+      "people": 14,
+      "eligible": false,
+      "radius": 79.3817236501265,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "before",
+      "cell": "pm:1",
+      "people": 8,
+      "eligible": false,
+      "radius": 79.3817236501265,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "after",
+      "cell": "am:0",
+      "people": 19,
+      "eligible": false,
+      "radius": 59.293383166260526,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "after",
+      "cell": "am:1",
+      "people": 6,
+      "eligible": false,
+      "radius": 59.293383166260526,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "after",
+      "cell": "pm:0",
+      "people": 14,
+      "eligible": false,
+      "radius": 59.293383166260526,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    },
+    {
+      "stage": "after",
+      "cell": "pm:1",
+      "people": 9,
+      "eligible": false,
+      "radius": 59.293383166260526,
+      "reason": "four-cell Bonferroni; insufficient independent calibration people or infinite finite-sample quantile"
+    }
+  ],
+  "independent_people": 20,
+  "duplicates_retained": true,
+  "model_or_radius_function_changed": false,
+  "runtime_seconds": 4.60008313399976,
+  "completed_at": "2026-11-14T08:18:20.123922+00:00"
+}

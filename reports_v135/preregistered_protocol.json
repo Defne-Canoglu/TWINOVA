@@ -1,0 +1,132 @@
+{
+  "version": "13.5.0",
+  "seed": 135221,
+  "max_people": 128,
+  "days": 14,
+  "primary_event": {
+    "name": "target_lapse_fraction_ge_0.10",
+    "field": "target_lapses/target_n",
+    "threshold": 0.1,
+    "unit": "fraction",
+    "horizon_h": 2,
+    "engineering_only": true,
+    "trial_lapse_ms": 500
+  },
+  "secondary_event": {
+    "name": "target_session_median_ge_400",
+    "threshold_ms": 400,
+    "engineering_only": true
+  },
+  "short_protocol": "ENGINEERING_SHORT_5MIN",
+  "target_protocol": "ENGINEERING_TARGET_10MIN",
+  "candidates": [
+    "ridge_10",
+    "nonlinear"
+  ],
+  "classifier_candidates": [
+    "logistic",
+    "nonlinear"
+  ],
+  "person_cv_folds": 3,
+  "alarm_thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+  ],
+  "duration": {
+    "checkpoints": [
+      24,
+      36,
+      60
+    ],
+    "min_minutes": 2,
+    "max_minutes": 5,
+    "precision_candidates": [
+      0.12,
+      0.18,
+      0.25
+    ]
+  },
+  "policy": {
+    "sensitivity_min": 0.9,
+    "false_positive_max": 0.2,
+    "extra_MAE_max_ms": 1,
+    "budgets": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "types": [
+      "always",
+      "fixed",
+      "random",
+      "gain",
+      "risk"
+    ]
+  },
+  "intervals": [
+    "constant",
+    "normalized",
+    "conditional",
+    "online"
+  ],
+  "nominal": 0.9,
+  "conditional_min_people": 19,
+  "conditional_bins": "issued local-clock hour <12 vs >=12; predicted before-risk >=0.5",
+  "personal_configs": [
+    {
+      "intercept_var": 9,
+      "slope_var": 25,
+      "noise_var": 144,
+      "decay_h": 48
+    },
+    {
+      "intercept_var": 25,
+      "slope_var": 100,
+      "noise_var": 144,
+      "decay_h": 72
+    }
+  ],
+  "learning": {
+    "totals": [
+      64,
+      96,
+      128
+    ],
+    "train_counts": [
+      8,
+      40,
+      72
+    ],
+    "MAE_change_ms": 0.15,
+    "coverage_change": 0.05,
+    "sensitivity_change": 0.05,
+    "false_positive_change": 0.05,
+    "rule": "all changes below limits at next nested size; otherwise stop at 128 and label budget stop"
+  },
+  "robustness": [
+    "nominal",
+    "sleep_restriction",
+    "recovery",
+    "phase_shift",
+    "irregular_light",
+    "short_missing",
+    "long_missing",
+    "delayed_input",
+    "delayed_label",
+    "sensor_noise",
+    "device_delay",
+    "clock_drift",
+    "stale_calibration",
+    "unseen_combination",
+    "rare_events"
+  ],
+  "test_gate": "all selections serialized and SHA256 recorded before evaluator opens test targets; no tuning after open",
+  "reference": "same new people/tasks and acquisition sequence; original v134 bundle kept unchanged"
+}

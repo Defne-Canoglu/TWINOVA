@@ -1,0 +1,60 @@
+DROZY: The ULg Multimodality Drowsiness Database
+License Agreement
+Version of 18 July 2018
+Introduction
+The "ULg Multimodality Drowsiness Database", also called DROZY, is a database containing
+various types of drowsiness-related data (signals, images, etc.) and intended to help
+researchers to carry out experiments, and to develop and evaluate systems (i.e. algorithms), in
+the area of drowsiness monitoring.
+The (multimodality) data were collected by the Laboratory for Signal and Image Exploitation
+(INTELSIG), which is part of the Department of Electrical Engineering and Computer
+Science of the University of Liège (ULg), Liège, Belgium. This laboratory is denoted here by
+"ULg-INTELSIG".
+The database can be used for research and evaluation purposes only. Specifically, the database
+cannot be used for the development of commercial products.
+As of July 2018, the DROZY database is made available for download on the Open
+Repository and Bibliography (ORBi) of the ULg.
+Agreement
+The present agreement is between ULg-INTELSIG and the prospective users, who are also
+denoted here by "Users". By downloading or using DROZY, the Users agree to the following
+nine (9) terms:
+1. Ownership: ULg-INTELSIG owns the database and its content. It owns the copyrights
+for them and any other relevant rights such as specific legal protection of databases. It
+is the sole distributor of the database and any associated software tools.
+2. Redistribution: The Users cannot distribute the database, in full or in part, to any third
+party without prior written approval from ULg-INTELSIG.
+3. Modification: The User cannot modify the database in any way.
+4. Commercial use: The Users can use the database for research and evaluation purposes
+only. Specifically, the Users cannot use the database for any commercial
+developments.
+5. Protection of identity: The Users cannot reveal in any way the identities (including the
+names) of the subjects.
+6. Publication: The Users cannot show or display in any form the images in the database,
+except those marked as being publishable.
+7. Warranty: ULg-INTELSIG provides the database and the associated software tools "as
+is", and gives no express or implied warranties of any kind, including without
+limitation the warranties of fitness for any particular purpose and of non-infringement.
+!1/2 pages
+
+ULg-INTELSIG and ULg shall not be held responsible - under any circumstance(s) for any loss or damage (of any kind) caused by any use of the database and its tools,
+including accidents linked to their use.
+8. Citation: All documents (such as publication, presentation, posters, etc.) of the Users
+that report results, analysis, research, or equivalent that were obtained by using in any
+way the DROZY database must cite, at a minimum, the following article: "The ULg
+Multimodality Drowsiness Database (called DROZY) and Examples of Use", by
+Quentin Massoz, Thomas Langohr, Clémentine François, and Jacques G. Verly,
+Proceedings of the 2016 IEEE Winter Conference on Applications of Computer Vision
+(WACV 2016), Lake Placid, NY, March 7-10 2016.
+9. Changes: ULg-INTELSIG and ULg reserve the right to modify the content of the
+database, its tools, and the content of this document at any time. ULg-INTELSIG and
+ULg reserve the right to discontinue the maintenance of the database and the access to
+it.
+The present agreement shall be construed and governed by the laws of Belgium.
+The Parties agree to use their best efforts to settle amicably any dispute concerning this
+license agreement. In the event of long-term disagreement, the matter must be referred to the
+Liège Courts, Belgium.
+End of agreement.
+
+!2/2 pages
+
+

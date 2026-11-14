@@ -1,0 +1,158 @@
+{
+  "results": [
+    {
+      "model": "reference_all_long",
+      "people": 20,
+      "tasks": 560,
+      "events": 241,
+      "event_people": 17,
+      "TP": 192,
+      "FN": 49,
+      "FP": 38,
+      "TN": 281,
+      "sensitivity": 0.7966804979253111,
+      "specificity": 0.8808777429467085,
+      "false_positive_rate": 0.11912225705329153,
+      "PPV": 0.8347826086956521,
+      "PR_AUC": 0.7525550243550423,
+      "Brier": 0.15535714285714286,
+      "MAE_ms": 11.404426654905668,
+      "RMSE_ms": 14.34610187840625,
+      "median_abs_ms": 9.527486360238754,
+      "p90_abs_ms": 24.024865558656373,
+      "measure_rate": 0.9928571428571429,
+      "measurement_savings": 0.0071428571428571175,
+      "usable_measure_rate": 0.9928571428571429,
+      "interpretable_rate": 0.9928571428571429,
+      "short_measurement_minutes": 2780.00000000004,
+      "reference_measurement_minutes": 5599.9999999999045,
+      "total_measurement_minutes": 8379.999999999945,
+      "duration_reportable": true,
+      "task_coverage": 1.0,
+      "person_all_tasks_coverage": 1.0,
+      "width_mean_ms": 99.75092316325338,
+      "width_median_ms": 99.35421408420586,
+      "interval_score": 99.75092316325338,
+      "MAE_ci95": [
+        10.421404077382622,
+        12.440517225311723
+      ],
+      "person_coverage_ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "sensitivity_cluster_ci95": [
+        0.6230227630690768,
+        0.900668217886761
+      ],
+      "false_positive_cluster_ci95": [
+        0.046996487457265264,
+        0.21726553070642526
+      ]
+    },
+    {
+      "model": "new_all_long",
+      "people": 20,
+      "tasks": 560,
+      "events": 241,
+      "event_people": 17,
+      "TP": 217,
+      "FN": 24,
+      "FP": 81,
+      "TN": 238,
+      "sensitivity": 0.9004149377593361,
+      "specificity": 0.7460815047021944,
+      "false_positive_rate": 0.25391849529780564,
+      "PPV": 0.7281879194630873,
+      "PR_AUC": 0.9197266626414542,
+      "Brier": 0.10906209834224022,
+      "MAE_ms": 11.340101031140794,
+      "RMSE_ms": 14.34399398697813,
+      "median_abs_ms": 9.315428559691355,
+      "p90_abs_ms": 24.253530879685023,
+      "measure_rate": 0.9928571428571429,
+      "measurement_savings": 0.0071428571428571175,
+      "usable_measure_rate": 0.9928571428571429,
+      "interpretable_rate": 0.9928571428571429,
+      "short_measurement_minutes": 2780.00000000004,
+      "reference_measurement_minutes": 5599.9999999999045,
+      "total_measurement_minutes": 8379.999999999945,
+      "duration_reportable": true,
+      "task_coverage": 1.0,
+      "person_all_tasks_coverage": 1.0,
+      "width_mean_ms": 150.69012836847938,
+      "width_median_ms": 146.2306418979253,
+      "interval_score": 150.69012836847938,
+      "MAE_ci95": [
+        10.382256303116824,
+        12.343777087704765
+      ],
+      "person_coverage_ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "sensitivity_cluster_ci95": [
+        0.7983348267622461,
+        0.955686703601108
+      ],
+      "false_positive_cluster_ci95": [
+        0.13699669296820607,
+        0.407245840422476
+      ]
+    },
+    {
+      "model": "new_selected",
+      "people": 20,
+      "tasks": 560,
+      "events": 241,
+      "event_people": 17,
+      "TP": 217,
+      "FN": 24,
+      "FP": 91,
+      "TN": 228,
+      "sensitivity": 0.9004149377593361,
+      "specificity": 0.7147335423197492,
+      "false_positive_rate": 0.2852664576802508,
+      "PPV": 0.7045454545454546,
+      "PR_AUC": 0.9187913367160532,
+      "Brier": 0.10931139093397335,
+      "MAE_ms": 11.326633226299363,
+      "RMSE_ms": 14.345241398918933,
+      "median_abs_ms": 9.372344579844224,
+      "p90_abs_ms": 24.190446267613158,
+      "measure_rate": 0.9928571428571429,
+      "measurement_savings": 0.0071428571428571175,
+      "usable_measure_rate": 0.9928571428571429,
+      "interpretable_rate": 0.9928571428571429,
+      "short_measurement_minutes": 1111.9999999997654,
+      "reference_measurement_minutes": 5599.9999999999045,
+      "total_measurement_minutes": 6711.99999999967,
+      "duration_reportable": true,
+      "task_coverage": 1.0,
+      "person_all_tasks_coverage": 1.0,
+      "width_mean_ms": 111.87585956692978,
+      "width_median_ms": 107.91610627606971,
+      "interval_score": 111.87585956692978,
+      "MAE_ci95": [
+        10.419475979472473,
+        12.316191837523386
+      ],
+      "person_coverage_ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "sensitivity_cluster_ci95": [
+        0.7962868480725623,
+        0.9581662397570672
+      ],
+      "false_positive_cluster_ci95": [
+        0.15891145505971088,
+        0.4419895812462432
+      ]
+    }
+  ],
+  "policy_point_accepted_development": false,
+  "policy_evidence_accepted_development": false,
+  "test_used_for_selection": false,
+  "legacy_v134_comparison": "old RT/lapse observation models refitted on same new training people; original 400ms and new lapse events reported separately"
+}

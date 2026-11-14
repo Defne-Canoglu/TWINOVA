@@ -1,0 +1,11 @@
+{
+  "device": "VIRTUAL_D2",
+  "condition": "idle",
+  "reference_kind": "engineering_simulation",
+  "clock_id": "ATMEGA328P_TIMER1",
+  "clock_calibration_id": "VIRTUAL_TIMEBASE_133",
+  "tick_us": 0.49998750031249223,
+  "reference_uncertainty_us": 0.5,
+  "protocol": "PVT_CONTACT",
+  "available_h": -24
+}

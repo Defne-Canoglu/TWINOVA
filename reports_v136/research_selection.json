@@ -1,0 +1,221 @@
+{
+  "choices": {
+    "constant": {
+      "alpha": 10.0,
+      "alarm_threshold": 0.3,
+      "cols": {
+        "before": [],
+        "after": [
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "history": {
+      "alpha": 1.0,
+      "alarm_threshold": 0.2,
+      "cols": {
+        "before": [
+          "last_rt",
+          "history_mean",
+          "history_n"
+        ],
+        "after": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "clock_sleep": {
+      "alpha": 100.0,
+      "alarm_threshold": 0.2,
+      "cols": {
+        "before": [
+          "sin",
+          "cos",
+          "observed_sleep_h24",
+          "covered_h24",
+          "hours_since_wake"
+        ],
+        "after": [
+          "sin",
+          "cos",
+          "observed_sleep_h24",
+          "covered_h24",
+          "hours_since_wake",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "physiology": {
+      "alpha": 100.0,
+      "alarm_threshold": 0.15,
+      "cols": {
+        "before": [
+          "S",
+          "x",
+          "xc",
+          "n"
+        ],
+        "after": [
+          "S",
+          "x",
+          "xc",
+          "n",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "history_physiology": {
+      "alpha": 10.0,
+      "alarm_threshold": 0.2,
+      "cols": {
+        "before": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "S",
+          "x",
+          "xc",
+          "n"
+        ],
+        "after": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "S",
+          "x",
+          "xc",
+          "n",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "history_physiology_environment": {
+      "alpha": 10.0,
+      "alarm_threshold": 0.2,
+      "cols": {
+        "before": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "S",
+          "x",
+          "xc",
+          "n",
+          "co2_excess",
+          "dose_ugy",
+          "gravity_deviation"
+        ],
+        "after": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "S",
+          "x",
+          "xc",
+          "n",
+          "co2_excess",
+          "dose_ugy",
+          "gravity_deviation",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "history_physiology_clock": {
+      "alpha": 10.0,
+      "alarm_threshold": 0.2,
+      "cols": {
+        "before": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "S",
+          "x",
+          "xc",
+          "n",
+          "sin",
+          "cos"
+        ],
+        "after": [
+          "last_rt",
+          "history_mean",
+          "history_n",
+          "S",
+          "x",
+          "xc",
+          "n",
+          "sin",
+          "cos",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    },
+    "published_two_process": {
+      "alpha": 10.0,
+      "alarm_threshold": 0.15,
+      "cols": {
+        "before": [
+          "reference_S",
+          "reference_C"
+        ],
+        "after": [
+          "reference_S",
+          "reference_C",
+          "short_rt",
+          "short_response_speed",
+          "short_lapse_fraction",
+          "short_slow_speed",
+          "short_early_fraction",
+          "short_n",
+          "trial_metrics_available"
+        ]
+      }
+    }
+  },
+  "test_used_for_selection": false,
+  "test_scope": "Retrospective existing test, already examined in earlier versions"
+}

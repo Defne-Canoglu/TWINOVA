@@ -1,0 +1,26 @@
+{
+  "model_sha256": "f5b49b972bbafb3ad9fc2e39b6ca95023d0628a5dbbde7e6f49ce8f399b9f46a",
+  "selected_models": {
+    "regression": "ridge_10",
+    "classifier": "logistic",
+    "MAE_ms": 11.168210864792101,
+    "Brier": 0.08498451033073844,
+    "PR_AUC": 0.8495472897254146
+  },
+  "policy": {
+    "kind": "always",
+    "budget": 1.0,
+    "cut": null,
+    "cold_start": true
+  },
+  "duration": {
+    "mode": "short",
+    "precision": 0.18
+  },
+  "interval": "normalized",
+  "history": "history",
+  "alarm_threshold": 0.2,
+  "policy_point_accepted": false,
+  "policy_evidence_accepted": false,
+  "test_opened": false
+}

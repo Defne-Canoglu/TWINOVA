@@ -1,0 +1,47 @@
+[
+  {
+    "request": {
+      "person": "C135-108",
+      "task": "13-16",
+      "stage": "after",
+      "lang": "en",
+      "fault": "none"
+    }
+  },
+  {
+    "request": {
+      "person": "C135-108",
+      "task": "13-16",
+      "stage": "after",
+      "lang": "en",
+      "fault": "device_delay"
+    }
+  },
+  {
+    "request": {
+      "person": "C135-108",
+      "task": "00-8",
+      "stage": "before",
+      "lang": "en",
+      "fault": "none"
+    }
+  },
+  {
+    "request": {
+      "person": "C135-108",
+      "task": "00-8",
+      "stage": "after",
+      "lang": "en",
+      "fault": "none"
+    }
+  },
+  {
+    "request": {
+      "person": "C135-109",
+      "task": "01-8",
+      "stage": "after",
+      "lang": "en",
+      "fault": "none"
+    }
+  }
+]

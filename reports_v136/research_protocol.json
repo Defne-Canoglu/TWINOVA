@@ -1,0 +1,55 @@
+{
+  "seed": 136221,
+  "alphas": [
+    1.0,
+    10.0,
+    100.0
+  ],
+  "folds": 3,
+  "variants": {
+    "constant": [],
+    "history": [
+      "H"
+    ],
+    "clock_sleep": [
+      "K",
+      "W"
+    ],
+    "physiology": [
+      "P"
+    ],
+    "history_physiology": [
+      "H",
+      "P"
+    ],
+    "history_physiology_environment": [
+      "H",
+      "P",
+      "E"
+    ],
+    "history_physiology_clock": [
+      "H",
+      "P",
+      "K"
+    ],
+    "published_two_process": [
+      "reference_S",
+      "reference_C"
+    ]
+  },
+  "common_environment_in_main_comparison": false,
+  "current_measurement_group": "T appended to every after model, absent before",
+  "interval_method": "constant",
+  "nominal": 0.9,
+  "fixed_policy": "always",
+  "duration": "long",
+  "horizon_h": 2,
+  "selection_objective": "development Brier + .01*MAE",
+  "test_scope": "Retrospective existing test, already examined in earlier versions",
+  "dynamic_acceptance": {
+    "min_improvement_ms": 0.15,
+    "paired_ci_upper_below": 0.0,
+    "max_person_p90_deterioration_ms": 0.5
+  },
+  "default_model_policy": "Original v135 retained; experimental selection cannot silently replace it"
+}

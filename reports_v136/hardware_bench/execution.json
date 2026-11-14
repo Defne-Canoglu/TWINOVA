@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-11-14T10:24:08.839651+00:00",
+  "version": "13.6.0",
+  "report_sha256": "24681951cf314536b0d8ee54baad066ba1b208da8ec865d0727667aae91757d5",
+  "source_hashes": {
+    "v133/bench.py": "79ee007a2b5300fdd270fd06b1c64742edf7b8456b7a5ec031740f7a065e14aa",
+    "v133/hardware.py": "48c4f1c9e7a89c31ff012eca4cd37c9009221f37852507d5e75b0ce2de8b0e40"
+  },
+  "freshness_days": 30,
+  "expiry_scope": "Engineering artifact-review policy, not current device calibration",
+  "physical_run": false,
+  "packaging_note": "Source labels localized to English; original recorded measurement/report bytes retained."
+}

@@ -1,0 +1,36 @@
+{
+  "development": {
+    "history": {
+      "mean_ms": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "person_p90_ms": 0.0
+    },
+    "personal": {
+      "mean_ms": 0.0023905976099823896,
+      "ci95": [
+        -0.06420566666611902,
+        0.0649282065142034
+      ],
+      "person_p90_ms": 0.15627637577418482
+    },
+    "dynamic": {
+      "mean_ms": -0.022243759679386292,
+      "ci95": [
+        -0.07979190841209094,
+        0.031163612530011837
+      ],
+      "person_p90_ms": 0.09824759128409397
+    }
+  },
+  "new_candidate_accepted": false,
+  "default_engine_model": "v135 frozen",
+  "reason": "Candidate evaluation is complete; default only changes after a separate versioned release decision",
+  "thresholds": {
+    "min_improvement_ms": 0.15,
+    "paired_ci_upper_below": 0.0,
+    "max_person_p90_deterioration_ms": 0.5
+  }
+}

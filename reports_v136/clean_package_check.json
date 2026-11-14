@@ -1,0 +1,19 @@
+{
+  "completed_at": "2026-11-14T10:27:22.527858+00:00",
+  "archive_crc": true,
+  "integrity": {
+    "verified_files": 2184,
+    "mismatches": 0
+  },
+  "clean_cli_equals_working_API": true,
+  "research_models_load": true,
+  "windows_executed": false,
+  "browser_executed": false,
+  "recorded_source_browser_evidence": "reports_v136/browser_results.json",
+  "browser_scope": "No new browser run on clean extraction; separately recorded source application CUA evidence included",
+  "source_root_not_on_sys_path": true,
+  "delta_on_original_input_integrity": {
+    "verified_files": 2184,
+    "mismatches": 0
+  }
+}

@@ -1,0 +1,49 @@
+device,condition,fault,passed,expected_pass,matches_expectation,matched,errors,origin,scope
+VIRTUAL_D1,idle,none,True,True,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,display_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,hid_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,drift,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,missing_optical,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,missing_contact,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,duplicate,False,False,True,0,duplicate event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,clock_reset,False,False,True,0,clock reset/reordered trace,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,overflow,False,False,True,0,unarmed/unknown/dropped/clock event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,disconnect,False,False,True,0,serial protocol/disconnect,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,stale_calibration,False,False,True,0,stale calibration,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,idle,actuator_stuck,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,none,True,True,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,display_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,hid_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,drift,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,missing_optical,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,missing_contact,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,duplicate,False,False,True,0,duplicate event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,clock_reset,False,False,True,0,clock reset/reordered trace,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,overflow,False,False,True,0,unarmed/unknown/dropped/clock event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,disconnect,False,False,True,0,serial protocol/disconnect,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,stale_calibration,False,False,True,0,stale calibration,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D1,stress,actuator_stuck,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,none,True,True,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,display_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,hid_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,drift,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,missing_optical,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,missing_contact,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,duplicate,False,False,True,0,duplicate event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,clock_reset,False,False,True,0,clock reset/reordered trace,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,overflow,False,False,True,0,unarmed/unknown/dropped/clock event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,disconnect,False,False,True,0,serial protocol/disconnect,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,stale_calibration,False,False,True,0,stale calibration,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,idle,actuator_stuck,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,none,True,True,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,display_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,hid_delay,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,drift,False,False,True,60,,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,missing_optical,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,missing_contact,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,duplicate,False,False,True,0,duplicate event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,clock_reset,False,False,True,0,clock reset/reordered trace,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,overflow,False,False,True,0,unarmed/unknown/dropped/clock event,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,disconnect,False,False,True,0,serial protocol/disconnect,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,stale_calibration,False,False,True,0,stale calibration,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
+VIRTUAL_D2,stress,actuator_stuck,False,False,True,0,no paired events,synthetic_engineering,discrete event plant; not firmware instruction emulation or physical hardware run
